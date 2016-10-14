@@ -96,6 +96,8 @@ TARGET_NO_RPC := true
 
 TARGET_RELEASETOOLS_EXTENSIONS := device/lge/mako
 
+TARGET_NEEDS_PLATFORM_TEXT_RELOCATIONS := true
+
 BOARD_SEPOLICY_DIRS += \
        device/lge/mako/sepolicy
 
